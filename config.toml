@@ -1,0 +1,11 @@
+slack_token = 'XXXXXXXXXXXX'
+
+[commands.date]
+keyword = 'date'
+aliases = [ 'いま何時', '今何時' ]
+command = 'date'
+
+[commands.banner]
+keyword = 'banner *'
+command = 'banner *'
+monospaced = true
